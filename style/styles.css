@@ -223,6 +223,8 @@ nav {
     width: 100%;
     border-radius: 12px;
     background: #191919;
+    max-height: 252px;
+    height: 100%;
 }
 .stars {
     display: flex;
@@ -251,9 +253,75 @@ nav {
     color: #535862;
     font-size: 16px;
     font-weight: 500;
+    line-height: 24px
 }
 .under > a {
     color: #535862;
     font-size: 16px;
     font-weight: 400;
+}
+.level_three {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 112px;
+}
+.three_right {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.level_four {
+    border-radius: 16px;
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    margin-bottom: 112px;
+}
+.four_heading > h3 {
+    text-align: center;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.four_heading > p {
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 32px;
+}
+#email_input {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #7A7A7A;
+    background: #0B0B0E;
+    color: #717680;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 338px;
+    width: 100%;
+}
+.four_middle {
+    padding-bottom: 6px;
+}
+form {
+    display: flex;
+    gap: 16px;
+}
+#orange {
+    padding: 12px 24px;
+    border-radius: 12px;
+    background: #FF371A;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.four_last {
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: -100px;
 }
