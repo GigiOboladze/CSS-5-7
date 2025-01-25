@@ -86,12 +86,15 @@ nav {
     display: flex;
     max-width: 1040px;
     width: 100%;
+    gap: 24px;
+    margin-bottom: 112px;
 }
 .level_two_heading > h2 {
     color: #FFF;
     font-size: 64px;
     font-weight: 600;
     padding-bottom: 32px;
+    text-align: center;
 }
 .level_two_boxone {
     border-radius: 12px;
@@ -110,4 +113,147 @@ nav {
 }
 .level_two_boxone > img {
     padding-top: 24px;
+}
+.level_two_boxtwo {
+    margin-top: 24px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    max-width: 508px;
+    width: 100%;
+    border-radius: 12px;
+    background: #191919;
+    gap: 24px;
+}
+.img_p > h4 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.img_p {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.img_p > p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #797979;
+}
+.level_two_right {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.top {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    background: #191919;
+    max-height: 279px;
+    height: 100%;
+    padding: 16px;
+    max-width: 508px;
+    width: 100%;
+    gap: 24px;
+}
+.top_txt > h4 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.top_txt > p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #797979;
+}
+.top_txt {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    max-width: 508px;
+    width: 100%;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 12px;
+    background: #191919;
+}
+.bottom_txt > h4 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bottom_txt > p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #797979;
+}
+.level_three_heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 32px;
+}
+.level_three_heading > h2 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center
+}
+.level_three_heading > p {
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.three_left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.loving {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    max-width: 508px;
+    width: 100%;
+    border-radius: 12px;
+    background: #191919;
+}
+.stars {
+    display: flex;
+    gap: 4px;
+    padding-bottom: 16px;
+}
+.loving_middle > p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.loving_last {
+    display: flex;
+    gap: 12px;
+}
+.avatar_txt {
+    display: flex;
+    flex-direction: column;
+}
+.wichka {
+    display: flex;
+    gap: 4px;
+}
+.wichka > p {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 500;
+}
+.under > a {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
 }
